@@ -22,5 +22,5 @@ _{ This Proposed System intimates all the information about the upcoming sports 
 * The output of your HTML page will be displayed
 
 ##screenshots of admin page and adminhome page
-![Admin Page](../images/adminpage.png)
-![AdminHome Page](../images/adminhomepage.png)
+![Admin Page](assets/images/adminpage.png)
+![AdminHome Page](assets/images/adminhomepage.png)
