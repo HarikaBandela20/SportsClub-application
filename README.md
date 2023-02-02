@@ -1,6 +1,6 @@
 # SportsClub-application
 ***
-####_{ Sports Club is aimed to provide services, opportunities to any student player to participate with in a team. This application helps to know the information of our favourite sports. In this sports club, we are going to indicate the notifications like date, place, time., etc of various college sports tournaments. In this system, no student player is going to miss the opportunity to participate in a game. }_
+_{ Sports Club is aimed to provide services, opportunities to any student player to participate with in a team. This application helps to know the information of our favourite sports. In this sports club, we are going to indicate the notifications like date, place, time., etc of various college sports tournaments. In this system, no student player is going to miss the opportunity to participate in a game. }_
 
 ## Tools/Technologies Used
 * Java - Java language was designed to be small, simple and portable across platforms, operating systems, both at the source and at the binary level
@@ -21,6 +21,7 @@ _{ This Proposed System intimates all the information about the upcoming sports 
 * In the address area of the browser, type http://localhost:8080/SportsClub/admin.html and submit that address to the browser.
 * The output of your HTML page will be displayed
 
-##screenshots of admin page and adminhome page
+## Screenshots of admin page and adminhome page
+
 ![Admin Page](assets/images/adminpage.png)
 ![AdminHome Page](assets/images/adminhomepage.png)
