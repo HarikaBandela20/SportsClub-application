@@ -1,0 +1,20 @@
+create database sportsclub;
+use sportsclub;
+create table admin(username varchar(30),pwd varchar(30));
+insert into admin values('admin','admin');
+create table college(cid int auto_increment primary key,cname text,district text,address text,pincode int(10));
+create table student(stid int auto_increment primary key,username varchar(40),pwd varchar(40),emailid varchar(40),mno varchar(30),college text,address text);
+ 
+create table coach(cid int auto_increment primary key,username varchar(40),pwd varchar(40),emailid varchar(40),mno varchar(30),college text,address text,sport text);
+
+ create table coordinator(coid int auto_increment primary key,username varchar(40),pwd varchar(40),emailid varchar(40),mno varchar(30),college text,address text);
+
+create table sports_info(name text,description text);
+
+create table tournament(tid int auto_increment primary key,sport varchar(200),cname text,address text,fromdate varchar(40),todate varchar(40),starttime varchar(40),entryfee int(5),status int,mno varchar(15),coordinatorname varchar(45));
+
+ table userrequests(reqid int auto_increment primary key,username varchar(40),college varchar(40),tid int(5),status int(1));
+
+create table coachrequests(crid int auto_increment primary key,coachname varchar(40),college varchar(40),tid int,status int(1));
+create table windetails(tid int,winner text,runner text,ddate text);
+create table feedback(studentname varchar(40),feedback text,ddate text);
